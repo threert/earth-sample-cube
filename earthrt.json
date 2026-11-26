@@ -1,0 +1,15 @@
+{
+  "format": "earthrt/place@1",
+  "id": "sample-cube",
+  "title": "A sample cube by the Kamo river",
+  "summary": "The smallest EarthRT place: one model at an anchor. Copy it to make your own.",
+  "kind": "site",
+  "topic": "site:sample-cube",
+  "anchor": { "lat": 35.00905, "lon": 135.77155, "height": 0, "heightRef": "terrain", "heading": 0 },
+  "bounds": { "radius": 15 },
+  "visibleFrom": 3000,
+  "content": [{ "type": "glb", "uri": "models/cube.glb", "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": 1 }],
+  "start": { "position": [0, 2, 25], "target": [0, 3, 0] },
+  "license": "CC0-1.0",
+  "credits": ["EarthRT"]
+}
